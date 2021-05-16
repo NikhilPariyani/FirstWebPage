@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: auto;
+    max-width: 1200px;
+    background-image: linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)), url(../csswork/background.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+header{
+    /* background-image: linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)), url(../csswork/background.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh; */
+}
+.navbar{
+    max-width: 1200px;
+    height: 50px;
+    /* background-color: rgb(0,0,0,0.2); */
+    margin: auto;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 15px;
+    margin-right: 10px;
+    user-select: none;
+}
+ul li{
+    display: inline-block;
+    
+    
+}
+ul li a{
+    text-decoration: none;
+    padding: 5px 15px;
+    margin: 4px;
+    border: 1px solid #fff transparent;
+    border-radius: 5px;
+    color: #fff;
+    transition: 0.4s ease;
+}
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+ul li.first a{
+    color: #000;
+    background-color: #fff;
+}
+.logo img{
+    float: left;
+    margin-left: 30px;
+    width: 50px;
+    height: 40px;
+    padding: 5px;
+    user-select: none;
+}
+.logo img:hover{
+    background-color: transparent;
+}
+.title{
+    position: absolute;
+    top: 50%;
+    left: 48%;
+    transform: translate(-50%,-50%);  
+    user-select: none; 
+}
+.title h1{
+    color: #fff;
+    font-size: 70px;  
+    font-family: 'Texturina', serif;
+}
+.button{
+    position: absolute;
+    top: 63%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    user-select: none;   
+}
+.btn{
+    background-color: transparent;
+    color: #fff;
+    width: 150px;
+    padding: 10px 15px;
+    font-size: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    transition: 0.6s ease;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #fff;
+    color: #000;
+}
