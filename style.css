@@ -5,13 +5,12 @@
 body{
     margin: auto;
     max-width: 1200px;
-    background-image: linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)), url(../csswork/background.jpg);
+    background-image: linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)), url(background.jpg);
     background-position: center;
     background-size: cover;
     height: 100vh;
 }
 header{
-    /* background-image: linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)), url(../csswork/background.jpg);
     background-position: center;
     background-size: cover;
     height: 100vh; */
