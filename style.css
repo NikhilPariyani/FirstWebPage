@@ -5,12 +5,13 @@
 body{
     margin: auto;
     max-width: 1200px;
-    background-image: linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)), url(background.jpg);
+    background-image: linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)), url(../csswork/background.jpg);
     background-position: center;
     background-size: cover;
     height: 100vh;
 }
 header{
+    /* background-image: linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)), url(../csswork/background.jpg);
     background-position: center;
     background-size: cover;
     height: 100vh; */
@@ -25,7 +26,7 @@ ul{
     float: right;
     list-style-type: none;
     margin-top: 15px;
-    margin-right: 10px;
+    margin-right: 0px;
     user-select: none;
 }
 ul li{
@@ -35,8 +36,8 @@ ul li{
 }
 ul li a{
     text-decoration: none;
-    padding: 5px 15px;
-    margin: 4px;
+    padding: 5px 10px;
+    margin: 3px;
     border: 1px solid #fff transparent;
     border-radius: 5px;
     color: #fff;
@@ -67,18 +68,25 @@ ul li.first a{
     left: 48%;
     transform: translate(-50%,-50%);  
     user-select: none; 
+    
+    margin-bottom: 20px;
 }
 .title h1{
     color: #fff;
     font-size: 70px;  
+    text-align: center;
     font-family: 'Texturina', serif;
+    
 }
 .button{
     position: absolute;
-    top: 63%;
+    top: 78%;
     left: 50%;
     transform: translate(-50%,-50%);
     user-select: none;   
+    width: auto;
+    /* background-color: #000; */
+    margin: 13px;
 }
 .btn{
     background-color: transparent;
@@ -96,3 +104,21 @@ ul li.first a{
     background-color: #fff;
     color: #000;
 }
+ /* @media only screen and (max-width:500px) {
+    /* For tablets: 
+    header {
+      width: 100%;
+      padding: 0;
+      height: 100px;
+
+    }
+    .navbar {
+      width: 100%;
+    }
+  }
+  @media only screen and (max-width:800px) {
+    /* For mobile phones: 
+    header, .navbar, .button {
+      width: 100%;
+    }
+  } */
