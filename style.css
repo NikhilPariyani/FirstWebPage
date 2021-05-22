@@ -85,3 +85,21 @@ ul li.first a{
     background-color: #fff;
     color: #000;
 }
+@media only screen and (max-width:500px) {
+    /* For tablets: */
+    header {
+      width: 100%;
+      padding: 0;
+      height: 100px;
+
+    }
+    .navbar {
+      width: 100%;
+    }
+  }
+  @media only screen and (max-width:800px) {
+    /* For mobile phones: */
+    header, .navbar, .button {
+      width: 100%;
+    }
+  } 
